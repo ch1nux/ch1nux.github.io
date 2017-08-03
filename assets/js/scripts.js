@@ -1,0 +1,5 @@
+var $ = require('minified').$;
+
+$(function () {
+
+});

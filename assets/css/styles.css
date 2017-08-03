@@ -1,0 +1,6 @@
+.column a {
+	text-decoration: none !important;
+}
+.column a:hover {
+	text-decoration: underline !important;
+}
