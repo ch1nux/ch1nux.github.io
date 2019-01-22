@@ -1,100 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-		<link rel="shortcut icon" type="image/x-icon" href="data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMS4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4PSIwcHgiIHk9IjBweCIgdmlld0JveD0iMCAwIDI5Ni4wODggMjk2LjA4OCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjk2LjA4OCAyOTYuMDg4OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgd2lkdGg9IjUxMnB4IiBoZWlnaHQ9IjUxMnB4Ij4KPGc+Cgk8cGF0aCBzdHlsZT0iZmlsbDojRkZGRkZGOyIgZD0iTTI4MC4wNTMsMTQ4LjExQzI4MC4wNTMsMTQ4LjExLDI4MC4wNTMsMTQ4LjExMywyODAuMDUzLDE0OC4xMSAgIGMwLTM0LjE5Mi0yNy44Mi02MS45MzgtNjIuMDE2LTYxLjkzOGMtMzMuNTA2LDAtNjAuNjY2LDI2LjE3Mi02MS45NDgsNTkuNjM1bDAuMDA0LDAuMTE4YzAtMC4wOSwwLjAyNS0wLjA5LTAuMDE0LDUuMDEyICAgYy0wLjY5MywyMC4yODItOS4xMTIsMzkuMjM3LTIzLjcwNiw1My4zNzZjLTE0LjYzMSwxNC4xNzYtMzMuOTEyLDIxLjk4Mi01NC4yOSwyMS45ODJjLTcuMjU0LDAtMTQuMzg0LTEuMDA2LTIxLjIyMy0yLjkzNSAgIGMwLjAxOSwwLjAxNCwwLjAzOCwwLjAyNiwwLjA1OCwwLjA0Yy04LjgzNS0yLjQ3NS0xNy4xODMtNi41LTI0LjY2OS0xMS45MzNjNi4zODIsMTEuNjM4LDE0LjU2MSwyMi4zNTcsMjQuMzcsMzEuNzg5ICAgYzI0LjcwMiwyMy43NTEsNTcuMTg1LDM2LjgzMSw5MS40NjUsMzYuODMxYzcyLjUyOSwwLDEzMS42NzQtNTkuMDA4LDEzMS45NzktMTMxLjUwNiAgIEMyODAuMDU4LDE0OC40NTUsMjgwLjA1NCwxNDguMTY3LDI4MC4wNTMsMTQ4LjExeiBNMjE4LjAwMSwxNjguMDg4Yy0xMS4wMjgsMC0yMC04Ljk3Mi0yMC0yMGMwLTExLjAyOCw4Ljk3Mi0yMCwyMC0yMCAgIGMxMS4wMjgsMCwyMCw4Ljk3MiwyMCwyMEMyMzguMDAxLDE1OS4xMTYsMjI5LjAzLDE2OC4wODgsMjE4LjAwMSwxNjguMDg4eiIvPgoJPHBhdGggc3R5bGU9ImZpbGw6I0ZGRkZGRjsiIGQ9Ik01OC4wMDEsMTQ4LjA4OGMwLDExLjAyOCw4Ljk3MiwyMCwyMCwyMGMxMS4wMjgsMCwyMC04Ljk3MiwyMC0yMGMwLTExLjAyOC04Ljk3Mi0yMC0yMC0yMCAgIEM2Ni45NzMsMTI4LjA4OCw1OC4wMDEsMTM3LjA2LDU4LjAwMSwxNDguMDg4eiIvPgoJPHBhdGggZD0iTTI5Ni4wNTMsMTQ3Ljk1NmMwLTAuMDk0LTAuMDA1LTAuMTg3LTAuMDA1LTAuMjhDMjk1LjgyNSw2Ni4yNTgsMjI5LjU0MywwLDE0OC4wOTksMCAgIEMxMDkuNTUzLDAsNzMuMDU5LDE0LjY1Miw0NS4zNCw0MS40MThDMTcuNjk3LDY4LjExMSwxLjY4LDEwNC4wODgsMC4yNCwxNDIuMDg4aDAuMDE4Yy0wLjE1NywyLTAuMjM0LDQuMTg4LTAuMjM0LDUuOTY5ICAgYzAsMS42OTksMC4xOTEsNi4wNjYsMC4yMDIsNi4zMTljMS42LDM4LjIsMTcuNjg4LDczLjg2MSw0NS4zMDUsMTAwLjQxNGMyNy42OTgsMjYuNjMyLDY0LjExOSw0MS4yOTgsMTAyLjU1NSw0MS4yOTggICBjODEuNDMxLDAsMTQ3LjgxNC02Ni4yNTUsMTQ3Ljk4LTE0Ny43MDlDMjk2LjA2NSwxNDguMjQ3LDI5Ni4wNjEsMTQ4LjEwMiwyOTYuMDUzLDE0Ny45NTZ6IE0xNDguMDg1LDI4MC4wODggICBjLTM0LjI4LDAtNjYuNzYzLTEzLjA4LTkxLjQ2NS0zNi44MzFjLTkuODEtOS40MzItMTcuOTg4LTIwLjE1MS0yNC4zNy0zMS43ODljNy40ODYsNS40MzMsMTUuODM0LDkuNDU4LDI0LjY2OSwxMS45MzMgICBjLTAuMDItMC4wMTQtMC4wMzgtMC4wMjYtMC4wNTgtMC4wNGM2LjgzOSwxLjkyOSwxMy45NjksMi45MzUsMjEuMjIzLDIuOTM1YzIwLjM3OCwwLDM5LjY1OS03LjgwNyw1NC4yOS0yMS45ODIgICBjMTQuNTk0LTE0LjEzOSwyMy4wMTMtMzMuMDk0LDIzLjcwNi01My4zNzZjMC4wMzktNS4xMDEsMC4wMTQtNS4xMDEsMC4wMTQtNS4wMTJsLTAuMDA0LTAuMTE4ICAgYzEuMjgyLTMzLjQ2MywyOC4yNzYtNTkuNjM1LDYxLjc4Mi01OS42MzVjMzQuMTk1LDAsNjEuODQ5LDI3Ljc0Niw2MS44NDksNjEuOTM5YzAsMC4wMDIsMC0wLjAwMiwwLTAuMDAyICAgYzAsMC4wNTgsMC4xNzEsMC4zNDYsMC4xNzcsMC40NzNDMjc5LjU5MiwyMjEuMDgsMjIwLjYxNCwyODAuMDg4LDE0OC4wODUsMjgwLjA4OHogTTk4LjAwMSwxNDguMDg4YzAsMTEuMDI4LTguOTcyLDIwLTIwLDIwICAgYy0xMS4wMjgsMC0yMC04Ljk3Mi0yMC0yMGMwLTExLjAyOCw4Ljk3Mi0yMCwyMC0yMEM4OS4wMywxMjguMDg4LDk4LjAwMSwxMzcuMDYsOTguMDAxLDE0OC4wODh6Ii8+Cgk8cGF0aCBkPSJNMjE4LjAwMSwxMjguMDg4Yy0xMS4wMjgsMC0yMCw4Ljk3Mi0yMCwyMGMwLDExLjAyOCw4Ljk3MiwyMCwyMCwyMGMxMS4wMjgsMCwyMC04Ljk3MiwyMC0yMCAgIEMyMzguMDAxLDEzNy4wNiwyMjkuMDMsMTI4LjA4OCwyMTguMDAxLDEyOC4wODh6Ii8+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPGc+CjwvZz4KPC9zdmc+Cg==">
-	<title>Hi, visitor!</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
-	<link rel="stylesheet" href="assets/css/bulma.css">
-	<link rel="stylesheet" href="assets/css/styles.css">
-</head>
-<body>
-	<section class="hero is-fullheight is-primary is-bold">
-		<div class="hero-head">
-			<nav class="nav">
-				<div class="container">
-					<div class="nav-left">
-						<a class="nav-item">
-							<img src="assets/img/logo-cp.svg" alt="Logo">&nbsp;&nbsp;
-							<strong>Ch1nux Par1bus</strong>
-						</a>
-					</div>
-					<span class="nav-toggle">
-						<span></span>
-						<span></span>
-						<span></span>
-					</span>
-					<div class="nav-right nav-menu">
-						<a class="nav-item is-active"><span class="icon"><i class="fa fa-home"></i></span>&nbsp;Home</a>
-						<a class="nav-item"><span class="icon"><i class="fa fa-briefcase"></i></span>&nbsp;Works</a>
-						<a class="nav-item"><span class="icon"><i class="fa fa-glass"></i></span>&nbsp;Knows</a>
-						<a class="nav-item"><span class="icon"><i class="fa fa-rss"></i></span>&nbsp;Blog</a>
-						<a class="nav-item"><span class="icon"><i class="fa fa-comments"></i></span>&nbsp;Talks</a>
-						<a class="nav-item"><span class="icon"><i class="fa fa-beer"></i></span>&nbsp;Beers?</a>
-					</div>
-				</div>
-			</nav>
-		</div>
-		<div class="hero-body">
-			<div class="container has-text-centered">
-				<h1 class="title">Here goes a title</h1>
-				<h2 class="subtitle">(no pun intended)</h2>
-				<h2 class="subtitle">This webpage is about everything, <strong><a href="#">not just me</a></strong></h2>
-			</div>
-		</div>
-		<div class="hero-foot">
-			<nav class="tabs is-boxed is-fullwidth">
-				<div class="container">
-					<ul>
-						<li><a><span class="icon"><i class="fa fa-linkedin"></i></span><span class="is-hidden-mobile">Linkedin</span></a></li>
-						<li><a><span class="icon"><i class="fa fa-twitter"></i></span><span class="is-hidden-mobile">Twitter</span></a></li>
-						<li><a><span class="icon"><i class="fa fa-github"></i></span><span class="is-hidden-mobile">Github</span></a></li>
-					</ul>
-				</div>
-			</nav>
-	</div>
-	</section><br>
-	<section class="container is-fluid is-radiusless">
-		<div class="notification has-text-centered">
-			Here goes some other things you can find here.
-		</div>
-		<div class="columns is-gapless is-multiline has-text-centered">
-			<article class="column is-half">
-				<div class="notification is-success is-radiusless">
-					<a><h1 class="title">Work</h1>
-					<h2 class="subtitle">Stuff I've done</h2></a>
-				</div>
-			</article>
-			<article class="column is-half">
-				<div class="notification is-info is-radiusless">
-					<a><h1 class="title">Knows</h1>
-					<h2 class="subtitle">Drink &amp; Know things</h2></a>
-				</div>
-			</article>
-			<article class="column is-half">
-				<div class="notification is-danger is-radiusless">
-					<a><h1 class="title">Blog</h1>
-					<h2 class="subtitle">Things I've thought &amp; wrote</h2></a>
-				</div>
-			</article>
-			<article class="column is-half">
-				<div class="notification is-warning is-radiusless">
-					<a><h1 class="title">Talks</h1>
-					<h2 class="subtitle">Some things I've said</h2></a>
-				</div>
-			</article>
-		</div>
-	</section><br>
-	<footer class="footer is-radiusless">
-		<div class="container is-fluid">
-			<div class="content">
-				<p>Made with <span class="icon"><i class="fa fa-heart"></i></span> and <span class="icon"><i class="fa fa-hand-spock-o"></i></span> <br> Also with <a href="http://bulma.io" target="_blank">Bulma</a> and <a href="http://minifiedjs.com" target="_blank">Minified.js</a></p>
-			</div>
-		</div>
-		<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top"><input type="hidden" name="cmd" value="_s-xclick"><input type="hidden" name="hosted_button_id" value="JDUHJJFNVQ7LA"><input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donate_SM.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"><img alt="" border="0" src="https://www.paypalobjects.com/es_XC/i/scr/pixel.gif" width="1" height="1"></form>
-	</footer>
-	<script src="assets/js/minified.js"></script>
-	<script src="assets/js/script.js"></script>
-</body>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Source+Code+Pro');
+      img {
+        height: 12rem;
+        width: 12rem;
+      }
+      .blink {
+        animation: blinking 1s ease infinite alternate;
+      }
+      .card {
+        background-color: #464646;
+        box-shadow: 4px 4px #0F0F0F;
+        color: #F5F5F5;
+        margin: 0 auto;
+        max-width: 80vh;
+        min-height: 1rem;
+        opacity: 0.9;
+        padding: 1rem;
+        text-align: center;
+        z-index: 3;
+      }
+      .flex: {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .mono { font-family: 'Source Code Pro', monospace; }
+      .large { font-size: 2rem; }
+      .medium { font-size: 1.5rem; }
+      .text { font-family: 'Open Sans', sans-serif; }
+      @keyframes blinking {
+        from {
+          opacity: 1;
+        }
+        to {
+          opacity: 0;
+        }
+      }
+    </style>
+    <title>Hello, World</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="card flex">
+        <img src="/avatar-cat.gif" alt="rolling-cat"/>
+        <h1 class="large mono blink">Please, be patient.</h1>
+        <h2 class="medium text blink">Something meowsome is rolling...</h2>
+      </div>
+    </div>
+  </body>
 </html>
