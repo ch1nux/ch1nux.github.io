@@ -1,0 +1,74 @@
+[
+  {
+    "isWebpage": true,
+    "isPen": false,
+    "repo": null,
+    "link": "http://caveintec.org/",
+    "identifier": "CAVEINTEC",
+    "description": "Tech entrepreneurships",
+    "color": "#0A66A0"
+  },
+  {
+    "isWebpage": true,
+    "isPen": false,
+    "repo": null,
+    "link": "http://forintra.com/#/",
+    "identifier": "Forintra",
+    "description": "Specialists in cold chain supplies",
+    "color": "#212431"
+  },
+  {
+    "isWebpage": false,
+    "isPen": true,
+    "repo": null,
+    "link": "https://codepen.io/ChinuxParibus/full/aNzgPa",
+    "identifier": "Tribute Page",
+    "description": "To Isaac Asimov. I really love his books.",
+    "color": "#1C1D21"
+  },
+  {
+    "isWebpage": false,
+    "isPen": true,
+    "repo": null,
+    "link": "https://codepen.io/ChinuxParibus/full/zMYYgV",
+    "identifier": "Product Page",
+    "description": "A funny tribute for two things I love",
+    "color": "#1C1D21"
+  },
+  {
+    "isWebpage": false,
+    "isPen": true,
+    "repo": null,
+    "link": "https://codepen.io/ChinuxParibus/full/ZqNmGZ",
+    "identifier": "Survey Form",
+    "description": "Cats are the best. Meow!",
+    "color": "#1C1D21"
+  },
+  {
+    "isWebpage": false,
+    "isPen": false,
+    "repo": "https://github.com/thousanddaysofvue/project1",
+    "link": "https://thousandsdaysofvue.github.io/project1",
+    "identifier": "PayPal Calculator",
+    "description": "Learning to work with PWA and Vue.js",
+    "color": "#0141A0"
+  },
+  {
+    "isWebpage": false,
+    "isPen": false,
+    "repo": "https://github.com/thousanddaysofvue/project21",
+    "link": "https://thousandsdaysofvue.github.io/project1",
+    "identifier": "Coelho.js",
+    "description": "Nice serverless Vue app (It uses JEXIA)",
+    "color": "#025292"
+  },
+  {
+    "isWebpage": false,
+    "isPen": false,
+    "repo": "https://github.com/thousanddaysofvue/project15",
+    "link": "https://thousanddaysofvue.github.io/project15",
+    "identifier": "mylightbulb",
+    "description": "A Vue.js App to learn how to use CSS Grid",
+    "color": "#A3CBD8"
+  }
+]
