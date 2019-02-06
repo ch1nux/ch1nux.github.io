@@ -1,28 +1,55 @@
 <template>
-  <section class="container">
-    <article class="card work text flex flex-top has-shadow mobile-card">
-      <div class="image">
-        <img
-          src="/avatar-cat.gif"
-          alt=""
-          class="squared"
-        >
-      </div>
-      <div class="content">
-        <h3 class="large mono">
-          Cat stuffs...
-        </h3>
-        <p>
-          Y'know, the kind of stuff that cats who knows how to code...
-        </p>
-        <p class="mono">
-          ¯\_(ツ)_/¯
-        </p>
-        <ToHome />
-      </div>
-    </article>
-    <article class="grid work-grid">
-      <div class="card has-shadow align-center">
+  <div>
+    <Menu />
+    <section class="flex flex-center flex-left">
+      <article class="container">
+        <div class="flex text">
+          <div class="image">
+            <img
+              src="/avatar-cat.gif"
+              alt=""
+              class="squared"
+            >
+          </div>
+          <div class="content">
+            <h3 class="large mono">
+              Cat stuffs...
+            </h3>
+            <p>
+              Y'know, the kind of stuff that cats know how to code...
+            </p>
+            <p>
+              Links to:
+              <span class="dict">
+                ⚓🌎
+              </span>
+              a webpage |
+              <span class="dict">
+                💻🖊️
+              </span>
+              a CodePen Project |
+              <span class="dict">
+                🐙🐱
+              </span>
+              a Github repository
+            </p>
+            <p>
+              You can either
+              <a
+                href="/resume.pdf"
+                target="_blank"
+                class="smooth terran"
+              >
+                download my resume
+              </a>
+              or check another options on the menu
+            </p>
+          </div>
+        </div>
+      </article>
+    </section>
+    <div class="container grid work-grid">
+      <div class="card has-shadow rounded align-center">
         <span class="mono">
           💖 this.portfolio
         </span>
@@ -35,20 +62,18 @@
         :key="i"
         v-bind="job"
       />
-    </article>
-    <SelectCharacter />
-  </section>
+    </div>
+  </div>
 </template>
 
 <script>
 import works from './../data/works.json'
+import Menu from './Menu.vue'
 import WorkCard from './WorkCard.vue'
-import ToHome from './ToHome.vue'
-import SelectCharacter from './SelectCharacter.vue'
 
 export default {
   name: 'Work',
-  components: { WorkCard, ToHome, SelectCharacter },
+  components: { WorkCard, Menu },
   head: {
     title: '| Work'
   },
@@ -61,10 +86,8 @@ export default {
 </script>
 
 <style lang="scss">
-.work {
-  background: $color-3 !important;
-}
 .work-grid {
+  margin: 1rem;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 1rem;
 }

@@ -1,20 +1,13 @@
 <template>
   <div
-    :class="[
-      'card',
-      'rounded',
-      'smooth',
-      'align-center',
-      { 'has-shadow': isHovered }
-    ]"
+    class="card rounded smooth align-center has-shadow"
     :style="{ 'backgroundColor': color }"
-    @mouseover="isHovered = true"
-    @mouseout="isHovered = false"
   >
     <a
       v-if="isWebpage"
       :href="link"
       target="_blank"
+      class="smooth coral"
     >
       ⚓🌎
     </a>
@@ -22,6 +15,7 @@
       v-else-if="isPen"
       :href="link"
       target="_blank"
+      class="smooth coral"
     >
       💻🖊️
     </a>
@@ -29,6 +23,7 @@
       v-else
       :href="repo"
       target="_blank"
+      class="smooth coral"
     >
       🐙🐱
     </a> |
@@ -39,6 +34,7 @@
       <a
         :href="link"
         target="_blank"
+        class="smooth coral"
       >
         {{ identifier }}
       </a>
@@ -87,17 +83,6 @@ export default {
       type: String,
       default: ''
     }
-  },
-  data () {
-    return {
-      isHovered: false
-    }
   }
 }
 </script>
-
-<style lang="scss">
-a {
-  @extend .smooth;
-}
-</style>

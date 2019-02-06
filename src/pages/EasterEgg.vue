@@ -1,42 +1,41 @@
 <template>
-  <div
-    :class="[
-      'card',
-      'align-center',
-      'rounded',
-      'smooth',
-      { 'has-shadow': isHovered }
-    ]"
-    @mouseover="isHovered = true"
-    @mouseout="isHovered = false"
-  >
-    <h1 class="large greet">
-      ✋
-    </h1><br>
-    <span
-      v-if="MOTD.hasLink"
-      class="medium mono"
-    >
-      <a
-        :href="MOTD.link"
-        target="_blank"
-        class="smooth"
+  <div class="flex text">
+    <div class="image">
+      <img
+        src="/YO.jpg"
+        alt="identifier"
+        class="image"
+      >
+    </div>
+    <div class="content">
+      <h1 class="large greet">
+        ✋
+      </h1><br>
+      <span
+        v-if="MOTD.hasLink"
+        class="medium mono"
+      >
+        <a
+          :href="MOTD.link"
+          target="_blank"
+          class="smooth terran"
+        >
+          {{ MOTD.message }}
+        </a>
+      </span>
+      <span
+        v-else
+        class="medium mono"
       >
         {{ MOTD.message }}
-      </a>
-    </span>
-    <span
-      v-else
-      class="medium mono"
-    >
-      {{ MOTD.message }}
-    </span><br>
-    <h2 class="small mono">
-      Choose your fighter and start to play! 😉
-    </h2>
-    <span class="x-small text hidden-on-mobile">
-      (Oh, and please, don't read the console...)
-    </span>
+      </span><br>
+      <h2 class="small mono">
+        Hi there, my name is Jhony 😉
+      </h2>
+      <span class="x-small text hidden-on-mobile">
+        (Oh, and please, don't read the console...)
+      </span>
+    </div>
   </div>
 </template>
 
@@ -48,8 +47,7 @@ export default {
   data () {
     return {
       MOTD: '',
-      messages,
-      isHovered: false
+      messages
     }
   },
   mounted () {
