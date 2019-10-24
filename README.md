@@ -1,15 +1,8 @@
 # portfolio
 
-> Created by [create-poi-app](https://poi.js.org).
+This project has suffered a major refactor.
 
-## Project Scripts
+Being migrated from [Poi](https://poi.js.org/) to a minimalistic Vue.js site,
+crafted from zero ground and not attached to any generator (Just plain Vue 😋)
 
-### `npm run build`
-
-Build app for production to `./dist` folder.
-
-### `npm run dev`
-
-Start a dev server to preview your app.
-
-
+Hope it enjoy better this time...
