@@ -19,7 +19,8 @@ const NavbarMenu = {
 }
 
 const ScrollTop = {
-  template: `<button v-show="isTop" id="scroll" class="smooth" @click="toTop">☝️</button>`,
+  template: `
+    <div v-show="isTop" id="scroll" class="smooth flex flex-centered" @click="toTop"> &Uparrow; </div>`,
   data () {
     return {
       isTop: false
