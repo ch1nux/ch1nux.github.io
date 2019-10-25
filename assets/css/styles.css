@@ -1,12 +1,6 @@
 /*! minireset.css v0.0.4 | MIT License | github.com/jgthms/minireset.css */
 html,body,p,ol,ul,li,dl,dt,dd,blockquote,figure,fieldset,legend,textarea,pre,iframe,hr,h1,h2,h3,h4,h5,h6{margin:0;padding:0}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}ul{list-style:none}button,input,select,textarea{margin:0}html{box-sizing:border-box}*,*:before,*:after{box-sizing:inherit}img,embed,iframe,object,video{height:auto;max-width:100%}audio{max-width:100%}iframe{border:0}table{border-collapse:collapse;border-spacing:0}td,th{padding:0;text-align:left}
 
-/*
- ** {
- *  outline: 1px solid red;
- *}
- */
-
 :root {
   --first-blue: #1C282E;
   --second-blue: #136483;
@@ -178,20 +172,23 @@ p {
   .grid {
     grid-template-columns: auto;
   }
-  .responsive-img img {
-    display: none;
-  }
   .work:nth-child(n) {
     flex-direction: column;
     text-align: center;
   }
 }
 
+@media (max-width: 768px) {
+  .responsive-img img {
+    display: none;
+  }
+}
+
 #scroll {
   background-color: var(--first-blue);
   border-radius: 50%;
-  border: none;
   bottom: 1rem;
+  color: var(--fifth-blue);
   font-size: 2rem;
   height: 4rem;
   left: 1rem;
