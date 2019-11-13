@@ -74,6 +74,15 @@
   {
     "isWebpage": false,
     "isPen": false,
+    "repo": "https://github.com/ChinuxParibus/sarcastic-case",
+    "link": "https://chinux.tech/sarcastic-case",
+    "identifier": "Sarcastic Case Generator",
+    "description": "wHy ThIs ThInG wErE iNcLuDeD?",
+    "color": "#D08770"
+  },
+  {
+    "isWebpage": false,
+    "isPen": false,
     "repo": "https://github.com/hundreddaysofvue/paypal-calculator",
     "link": "https://hundreddaysofvue.github.io/paypal-calculator",
     "identifier": "PayPal Calculator",
