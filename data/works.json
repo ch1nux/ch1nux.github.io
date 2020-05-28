@@ -30,9 +30,27 @@
     "isWebpage": false,
     "isPen": true,
     "repo": null,
+    "link": "https://codepen.io/ChinuxParibus/full/OJJgZVj",
+    "identifier": "Technical Documentation",
+    "description": "A cheatsheet about markdown.",
+    "color": "#1C1D21"
+  },
+  {
+    "isWebpage": false,
+    "isPen": true,
+    "repo": null,
     "link": "https://codepen.io/ChinuxParibus/full/aNzgPa",
     "identifier": "Tribute Page",
     "description": "To Isaac Asimov. I really love his books.",
+    "color": "#1C1D21"
+  },
+  {
+    "isWebpage": false,
+    "isPen": true,
+    "repo": null,
+    "link": "https://codepen.io/ChinuxParibus/full/MWWoQZp",
+    "identifier": "Personal Portfolio",
+    "description": "A few avocados were applied here, too.",
     "color": "#1C1D21"
   },
   {
@@ -52,6 +70,15 @@
     "identifier": "Survey Form",
     "description": "Cats are the best. Meow!",
     "color": "#1C1D21"
+  },
+  {
+    "isWebpage": false,
+    "isPen": false,
+    "repo": "https://github.com/ChinuxParibus/sarcastic-case",
+    "link": "https://chinux.tech/sarcastic-case",
+    "identifier": "Sarcastic Case Generator",
+    "description": "wHy ThIs ThInG wErE iNcLuDeD?",
+    "color": "#D08770"
   },
   {
     "isWebpage": false,
