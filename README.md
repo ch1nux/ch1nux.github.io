@@ -1,10 +1,12 @@
-# portfolio
+---
+home: true
+heroImage:	/avocado.jpeg
+features:
+- title: Portafolio y blog
+  details: ¿Para qué tener una web para cada cosa cuando puedes tenerlo todo en un mismo sitio? Era la idea que tenía, ¡Qué bueno que siempre se puede corregir! ¿¡eh!? 🥑
+- title: 90% Markdown
+  details: Gran parte del contenido publicado está en Markdown, pero habrá una que otra configuración para cacharrear con Javascript (y una que otra cosilla sexy 🥑)
+- title: Diario personal
+  details: ¡Porque somos humanos! Uno que otro contenido pa' pensar, humor, memes, emojis, ¿yo qué se? ¿sigues leyendo esto? ¡vé y explora! Siempre eres bienvenida(o)  🥑
+---
 
-This project has suffered a major refactor.
-
-Being migrated from [Poi](https://poi.js.org/) to a minimalistic Vue.js site,
-crafted from zero ground and not attached to any generator (Just plain Vue 😋)
-
-Now working with [Vuepress](https://vuepress.vuejs.org), ant trying to retaking my personal blog
-
-Hope it enjoy better this time...
