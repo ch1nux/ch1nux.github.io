@@ -1,0 +1,101 @@
+[
+  {
+    "isWebpage": false,
+    "isPen": false,
+    "repo": null,
+    "link": "#",
+    "identifier": "this.portfolio",
+    "description": "Recursión aqui. Hecho con 💚 y Vuepress 🙂",
+    "color": "#1C282E"
+  },
+  {
+    "isWebpage": true,
+    "isPen": false,
+    "repo": null,
+    "link": "https://corazonllanero.com",
+    "identifier": "Corazon Llanero",
+    "description": "Página web de un canal de televisión. Hecha con 🐍 y Javascript",
+    "color": "#D4AF37"
+  },
+  {
+    "isWebpage": true,
+    "isPen": false,
+    "repo": null,
+    "link": "https://totaltraining.com",
+    "identifier": "Total Training",
+    "description": "Página web académica. Hecha con Vue y MongoDB 😉",
+    "color": "#9E2930"
+  },
+  {
+    "isWebpage": false,
+    "isPen": true,
+    "repo": null,
+    "link": "https://codepen.io/ChinuxParibus/full/aNzgPa",
+    "identifier": "Tribute Page",
+    "description": "A Isaac Asimov. Soy fan de sus libros y su ciencia ficción 🚀" ,
+    "color": "#1C1D21"
+  },
+  {
+    "isWebpage": false,
+    "isPen": true,
+    "repo": null,
+    "link": "https://codepen.io/ChinuxParibus/full/zMYYgV",
+    "identifier": "Product Page",
+    "description": "Advertencia: incluye gatos 🐈 y también aguacates 🥑",
+    "color": "#1C1D21"
+  },
+  {
+    "isWebpage": false,
+    "isPen": true,
+    "repo": null,
+    "link": "https://codepen.io/ChinuxParibus/full/ZqNmGZ",
+    "identifier": "Survey Form",
+    "description": "¡Michis FTW! 🐱",
+    "color": "#1C1D21"
+  },
+  {
+    "isWebpage": false,
+    "isPen": false,
+    "repo": "https://github.com/hundreddaysofvue/paypal-calculator",
+    "link": "https://hundreddaysofvue.github.io/paypal-calculator",
+    "identifier": "PayPal Calculator",
+    "description": "Proyecto concepto en el que aprendí a trabajar con las PWA usando Vue.js 📱",
+    "color": "#0141A0"
+  },
+  {
+    "isWebpage": false,
+    "isPen": false,
+    "repo": "https://github.com/hundreddaysofvue/o-clock",
+    "link": "https://hundreddaysofvue.github.io/o-clock",
+    "identifier": "O' Clock",
+    "description": "Un reloj, con dibujitos, y chistes... 🤷‍♂️",
+    "color": "#01A2A9"
+  },
+  {
+    "isWebpage": false,
+    "isPen": false,
+    "repo": "https://github.com/hundreddaysofvue/mylightbulb",
+    "link": "https://hundreddaysofvue.github.io/mylightbulb",
+    "identifier": "My Light Bulb",
+    "description": "Un prototipo de lámpara para aprender los conceptos de CSS Grid 💡",
+    "color": "#A3CBD8"
+  },
+  {
+    "isWebpage": false,
+    "isPen": false,
+    "repo": "https://github.com/hundreddaysofvue/watl",
+    "link": "https://hundreddaysofvue.github.io/watl",
+    "identifier": "Why Another To-Do List?",
+    "description": "Existen cualquier cantidad de apps de listas de tareas, ¿por qué esta sería diferente? 🤔",
+    "color": "#3EAD7B"
+  },
+  {
+    "isWebpage": false,
+    "isPen": false,
+    "repo": "https://github.com/hundreddaysofvue/color-palette-generator",
+    "link": "https://hundreddaysofvue.github.io/color-palette-generator",
+    "identifier": "Color Palette Generator",
+    "description": "¡Dale color a tu vida! Nah, es solo un generador tetrádico de colores 🎨",
+    "color": "#0A0A0A"
+  }
+]
