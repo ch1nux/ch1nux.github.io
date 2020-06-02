@@ -5,6 +5,7 @@ module.exports = {
   plugins: [
     '@vuepress/blog',
     '@vuepress/back-to-top',
+    '@vuepress/last-updated',
     [ '@vuepress/google-analytics',
       { ga: 'UA-90456269-1' }
     ],
@@ -13,6 +14,7 @@ module.exports = {
     ],
   ],
   themeConfig: {
+    lastUpdated: 'Actualizado en:',
     nav: [
       { text: '🥑 LA PEPA', link: '/about/' },
       { text: '💻 LAS CHAMBAS', link: '/works/' },
