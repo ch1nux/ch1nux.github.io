@@ -36,7 +36,7 @@ Pero, se que esta es la parte más importante...
 Me llamo [Jhony Alberto Grillet Medina][2], y este es un rinconcito de mí que
 pretendo alimentar periódicamente.
 
-Lo leíste de un aguacate :avocado:
+<FirmaPersonal />
 
 ¡Ah! Y si quieres puedes [echarme una ayudaíta][3] :yum:
 

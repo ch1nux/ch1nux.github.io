@@ -6,10 +6,9 @@ next: 		false
 
 ---
 
-# ÉCHAME UNA AYUDAÍTA...
-
 <img src="/supposed-to-live.gif" style="max-width: 100%;">
 
+# ÉCHAME UNA AYUDAÍTA...
 Pues si...
 
 Para quien no entendió la referencia, puede pasar por [acá][1] con confianza (¡qué no, que no
