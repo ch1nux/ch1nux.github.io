@@ -12,6 +12,9 @@ cd .vuepress/dist/
 # Create CNAME for automatic DNS redirection
 echo "www.chinux.tech" > CNAME
 
+# New remote to push
+git init
+
 # Forced push to different remote
 git add .
 git commit -m "Actualización $(date '+%d-%m-%Y %I:%M%p')"
