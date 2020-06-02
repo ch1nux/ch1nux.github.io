@@ -20,6 +20,8 @@ y enseñar lo que se :sweat_smile:
 
 **Lo leíste de un aguacate** :avocado:
 
-<ChambaProyecto />
+<ClientOnly>
+  <ChambaProyecto />
+</ClientOnly>
 
 [1]: https://dle.rae.es/chamba
