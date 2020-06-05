@@ -14,7 +14,7 @@ module.exports = {
     ],
   ],
   themeConfig: {
-    lastUpdated: 'Actualizado en:',
+    lastUpdated: 'Actualizado en',
     nav: [
       { text: '🥑 LA PEPA', link: '/about/' },
       { text: '💻 LAS CHAMBAS', link: '/works/' },
