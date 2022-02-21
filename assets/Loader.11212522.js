@@ -1,0 +1,1 @@
+import{_ as e}from"./index.0621f129.js";import{o,c as s,d as a}from"./vendor.192432aa.js";var t="/avatar-cat.gif";const _={},r={class:"image is-128x128"},c=a("img",{src:t,alt:"Loading..."},null,-1),n=[c];function i(d,m){return o(),s("figure",r,n)}var p=e(_,[["render",i]]);export{p as _};
